@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Inconsolata", sans-serif;
+  background-color: rgb(229, 173, 173);
+  overflow-x: hidden;
+}
+
+/*---------------end fo common styles---------------*/
+
+.navbar {
+  height: 4rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
+/*---------------end fo nav styles---------------*/
+
+#home {
+  width: 100%;
+  margin-bottom: 20rem;
+}
+
+#home img {
+  width: 100%;
+  height: 500px;
+}
+
+/*---------------end fo home styles---------------*/
+
+.container {
+  width: 1100px;
+  margin: 2rem auto;
+}
+
+.section-1 {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  margin: 4rem auto;
+  background-color: black;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  width: fit-content;
+  font-weight: 300;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 2rem;
+}
+
+.about-qoute {
+  padding: 2.5rem;
+  background-color: black;
+  color: white;
+  margin: 2rem 0;
+  transform: skewX(-10deg);
+  border-radius: 2rem;
+}
+
+.house-image {
+  width: 100%;
+}
+
+.heading-menu {
+  margin: 2rem 0;
+}
+.heading-menu a {
+  padding: 0.5rem 0.9rem;
+  margin: 1rem;
+  background-color: rgb(93, 5, 5);
+  border-radius: 2rem;
+  color: white;
+  font-weight: 900;
+}
+
+/*---------------end fo section-1 styles---------------*/
+
+.section-2 {
+  width: 100%;
+}
+
+.menu-content {
+  display: flex;
+}
+
+.side-title {
+  margin-bottom: 1rem;
+  background-color: rgb(138, 133, 133);
+  width: max-content;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+.side-list-item {
+  margin-left: 2rem;
+  color: black;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: rgb(73, 68, 27);
+  margin: 0.5rem 0rem;
+  width: 100%;
+  padding: 0.5rem 0;
+}
+
+.drink-food {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+}
+
+.df-textbox {
+  margin: 0.5rem 1rem;
+}
+
+.df-image-container {
+  margin: 0 1rem;
+}
+.food-box {
+  display: none;
+}
+
+.drink-box {
+  display: ;
+}
+
+.side-bar-container {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.df-image {
+  width: 200px;
+  height: 150px;
+}
+
+.df-description {
+  font-size: 1rem;
+}
+
+.history-image {
+  width: 100%;
+  height: 80%;
+  margin: 2rem 0;
+  border-radius: 4rem;
+}
+
+/*---------------end fo section2 styles---------------*/
+
+.welcome {
+  padding: 1rem;
+  color: white;
+  background-color: rgb(47, 4, 4);
+  width: 0 auto;
+  text-align: center;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+}
+
+.coffee-table {
+  width: 100%;
+  margin: 2rem 0;
+}
+/*---------------end fo section3 styles---------------*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  margin: 2rem auto;
+  width: 800px;
+}
+
+form input {
+  padding: 1rem 0.2rem;
+  margin: 1rem 0;
+  width: 700px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(86, 85, 85);
+  text-align: center;
+}
+
+footer:hover {
+  background-color: black;
+}
+.btn-footer {
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 20px 20px 15px 30px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  margin-top: 4rem;
+}
+
+.btn-footer:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn-footer i {
+  font-size: 16px;
+  color: black;
+}
+
+.section5-icon i {
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+footer p {
+  padding-bottom: 30px;
+  color: white;
+}
+
+.black {
+  padding: 1rem;
+  border: none;
+  background-color: brown;
+  color: white;
+}
+
+/*---------------end fo footer styles---------------*/
+
+@media screen and (max-width: 430px) {
+  html {
+    font-size: small;
+  }
+  #home {
+    height: 20vh;
+    margin-bottom: 5rem;
+  }
+
+  #home img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .about-qoute {
+    transform: skewX(0);
+  }
+
+  .container {
+    width: 430px;
+    margin: 0 auto;
+    padding: 1rem 1.5rem;
+  }
+
+  .heading-menu {
+    display: none;
+  }
+
+  .menu-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1.5rem;
+  }
+
+  .side-bar-container {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+  }
+
+  .df-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .card {
+    margin-bottom: 1.5rem;
+    width: 350px;
+  }
+
+  .side-bar {
+    padding: 1rem;
+    width: 200px;
+  }
+
+  .house-image {
+    width: 100%;
+  }
+
+  .coffee-table {
+    width: 100%;
+  }
+  .history-image {
+    width: 100%;
+    height: 80%;
+  }
+
+  .drink-food {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  form input {
+    width: 300px;
+  }
+}
